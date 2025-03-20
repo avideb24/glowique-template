@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Monomakh&family=Oswald:wght@200..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  @apply bg-light font-primary;
+}
+
+
+/* Remove arrows in Chrome, Safari, Edge */
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Remove arrows in Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+/* scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;    /* Firefox */
+}
+
+
+/* button css */
+.button{
+  @apply bg-primary w-fit px-10 capitalize py-2 text-xs sm:text-sm text-white hover:bg-dark hover:text-light duration-300;
+}
+.button-outline{
+  @apply bg-transparent border border-light hover:bg-white text-light hover:text-dark w-fit px-10 capitalize py-2 text-xs sm:text-sm duration-300;
+}
+.icon-button {
+  @apply relative flex items-center justify-center w-10 h-10 rounded-full border-2 border-light hover:bg-dark text-white duration-300;
+}
+
+/* ------ section css ------ */
+.section-padding{
+  @apply py-14 md:py-28;
+}
+.section-heading{
+  @apply text-dark  text-2xl md:text-4xl font-secondary font-bold pb-4 md:pb-8 uppercase;
+}
+.section-subHeading{
+  @apply text-primary pb-1 md:pb-2 text-center md:text-left;
+}
+
+/* ------ input css ------ */
+.input{
+  @apply bg-light hover:bg-light px-3 py-[6px] text-dark border border-slate-300 rounded-sm mt-1;
+}
+.input::placeholder{
+  @apply text-dark dark:text-light opacity-65;
+}
+
+
+
+/* ------------ global loading css ------------ */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.loader {
+  width: 50px;
+  height: 50px;
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #000;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.loading-text {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+  font-weight: 500;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+

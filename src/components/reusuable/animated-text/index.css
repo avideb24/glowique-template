@@ -1,0 +1,29 @@
+
+  
+.animated-text {
+  display: flex;
+}
+
+.key {
+  display: inline-block;
+  letter-spacing: -1vw;
+  transition: transform 0.2s;
+}
+
+@keyframes pressDown {
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+.key-1 { animation: pressDown 2s infinite; }
+.key-2 { animation: pressDown 3s infinite; }
+.key-3 { animation: pressDown 4s infinite; }
+.key-4 { animation: pressDown 2.5s infinite; }
+.key-5 { animation: pressDown 2.5s infinite; }
+.key-6 { animation: pressDown 3.5s infinite; }
+.key-7 { animation: pressDown 2.2s infinite; }
+.key-8 { animation: pressDown 3.2s infinite; }
+.key-9 { animation: pressDown 2.8s infinite; }
+.key-10 { animation: pressDown 3.6s infinite; }
+  
