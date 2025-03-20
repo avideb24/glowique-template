@@ -14,7 +14,7 @@ Thank you for purchasing the **Glowique Cosmetics Template**! This file provides
    ```
 3. Navigate into the project folder:
    ```bash
-   cd Glowique---cosmetics-template
+   cd glowique-template
    ```
 4. Install dependencies:
    ```bash
