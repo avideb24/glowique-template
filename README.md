@@ -27,7 +27,6 @@ Thank you for purchasing the **Glowique Cosmetics Template**! This file provides
 
 ## Folder Structure
 ```
-/public/DOCUMENTATION   # Full documentation
 /src/
   ├── /app/             # Next.js pages
   ├── /components/      # UI components
