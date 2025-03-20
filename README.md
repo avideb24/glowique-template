@@ -4,13 +4,13 @@
 Thank you for purchasing the **Glowique Cosmetics Template**! This file provides a quick start guide.
 
 ## Live Demo
-[View Live Site](https://bunch-cosmetics-template.vercel.app/)
+[View Live Site](https://glowique-cosmetics.vercel.app/)
 
 ## Installation
 1. Ensure you have **Node.js** installed.
 2. Clone the repository:
    ```bash
-   git clone https://github.com/avideb24/bunch---cosmetics-template.git
+   git clone https://github.com/avideb24/glowique-template.git
    ```
 3. Navigate into the project folder:
    ```bash
@@ -47,8 +47,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Jost: ['Jost', 'sans-serif'],
-        Monomakh: ['Monomakh', 'sans-serif'],
+        primary: ['Jost', 'sans-serif'],
+        secondary: ['Monomakh', 'sans-serif'],
       },
       colors: {
         primary: "#ff3d71",
