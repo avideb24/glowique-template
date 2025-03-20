@@ -1,6 +1,6 @@
 Copyright (c) 2025, Vida Technology Ltd.
 
-This template, including its code, design, and assets, is the exclusive property of Vida Technology Ltd.  
+This template, including its code, design, is the exclusive property of Vida Technology Ltd.  
 No one is allowed to use, copy, modify, distribute, or resell this template without prior purchase or written permission from Vida Technology Ltd.
 
 Unauthorized use, sharing, or distribution is strictly prohibited and may result in legal action.
@@ -11,8 +11,9 @@ For licensing inquiries or extended commercial use, please refer to the licensin
 Asset Licensing
 All fonts used in this project are sourced from Google Fonts and are free for commercial use. Images included are either open-source, from copyright-free sources, or placeholders.
 
-Fonts:
-- **Poppins** (Google Fonts) - Licensed under Open Font License (OFL)
+Free Fonts:
+- **Jost** (Google Fonts)
+- **Monomakh** (Google Fonts)
 
 Images:
 - All images used are from copyright-free sources such as Freepik, Unsplash and Pexels. Ensure to replace them if necessary.
