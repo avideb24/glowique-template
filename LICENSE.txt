@@ -15,7 +15,7 @@ Fonts:
 - **Poppins** (Google Fonts) - Licensed under Open Font License (OFL)
 
 Images:
-- All images used are from copyright-free sources such as Unsplash and Pexels. Ensure to replace them if necessary.
+- All images used are from copyright-free sources such as Freepik, Unsplash and Pexels. Ensure to replace them if necessary.
 
 Icons:
 - **React Icons** (https://react-icons.github.io/react-icons/) - MIT License
