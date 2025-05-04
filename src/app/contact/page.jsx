@@ -13,19 +13,19 @@ const ContactPage = () => {
             id: 1,
             title: 'Office',
             Icon: <MapPin />,
-            texts: ['236/5/A, South Prierbag, Amtola Bazar, Mirpur, Dhaka-1216']
+            texts: ['236/5/A, Paurashava Mor, Dinajpur, Bangladesh']
         },
         {
             id: 2,
             title: 'E-mail',
             Icon: <Mail />,
-            texts: ['info@vida.com.bd', 'support@vida.com.bd ']
+            texts: ['devavi24bd@gmail.com', 'support-demo@gmail.com']
         },
         {
             id: 3,
             title: 'Phone',
             Icon: <Phone />,
-            texts: ['+8801641443111',]
+            texts: ['+8801723622125',]
         },
     ];
 

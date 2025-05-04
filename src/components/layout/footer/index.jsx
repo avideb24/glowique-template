@@ -32,7 +32,7 @@ const Footer = () => {
                         <div>
                             <Image src={logoImg} width={100} height={100} alt="Logo" />
                             <address className="not-italic pl-3 pt-3 sm:max-w-64">
-                                236/5/A, South Prierbag, Amtola Bazar, Mirpur, Dhaka-1216
+                                236/5/A, Paurashava Mor, Dinajpur, Bangladesh
                             </address>
                             <div className="flex items-center text-2xl gap-2 pt-5 pl-3">
                                 {
@@ -77,21 +77,17 @@ const Footer = () => {
                         <div>
                             <h2 className="text-base md:text-lg font-semibold mb-6 mt-5 sm:mt-0">Support</h2>
                             <div className="flex flex-col gap-2 opacity-80">
-                                <Link href={'tel:+8801641443111'} className="flex items-center gap-2 hover:underline">
+                                <Link href={'tel:+8801723622125'} className="flex items-center gap-2 hover:underline">
                                     <Phone />
-                                    +8801641443111
+                                    +8801723622125
                                 </Link>
-                                {/* <Link href={'tel:+880177121238'} className="flex items-center gap-2 hover:underline">
-                                    <Phone />
-                                    +880177121238
-                                </Link> */}
-                                <Link href={'mailTo:info@vida.com.bd'} className="flex items-center gap-2 hover:underline">
+                                <Link href={'mailTo:devavi24bd@gmail.com'} className="flex items-center gap-2 hover:underline">
                                     <Mail />
-                                    info@vida.com.bd
+                                    devavi24bd@gmail.com
                                 </Link>
                                 <Link href={'mailTo:support@vida.com.bd'} className="flex items-center gap-2 hover:underline">
                                     <Mail />
-                                    support@vida.com.bd
+                                    support-demo@gmail.com
                                 </Link>
                             </div>
                         </div>
@@ -100,7 +96,7 @@ const Footer = () => {
                     {/* copyright section */}
                     <div className="text-xs md:text-sm text-center pt-10 mt-10 border-t border-t-slate-400">
                         <p> © 2025 - Designed By
-                            <Link href={'/'} className="ml-2">Vida Technology</Link>
+                            <Link href={'https://avi-debnath.surge.sh/'} className="ml-2">Avi Debnath</Link>
                         </p>
                     </div>
                 </div>
